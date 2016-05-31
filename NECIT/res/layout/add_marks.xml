@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent" 
+  android:background="#fff" >
+
+<TableLayout
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent" 
+  android:background="#fff">
+  
+    <TableRow 
+        android:layout_marginLeft="10dp" 
+  		android:layout_marginTop="10dp">
+  
+    <TextView 
+  		android:layout_height="wrap_content" 
+  		android:layout_width="wrap_content"
+  		android:textColor="#000" 
+  		android:text="ID" 
+  		android:typeface="serif"  />
+
+  
+  <Spinner 
+      android:layout_height="38dp" 
+   	  android:layout_width="200dp" 
+   	  android:id="@+id/m_spinner" />    
+  
+   
+      </TableRow>
+  
+<TableRow
+        android:layout_width="wrap_content"   
+  		android:layout_height="wrap_content"  
+        android:layout_marginLeft="10dp" 
+  		android:layout_marginTop="10dp">
+  
+    <TextView 
+        android:layout_width="wrap_content"   
+  		android:layout_height="wrap_content" 
+ 		android:textColor="#000" 
+  		android:text="MID1_NMS"  />
+ 
+  
+    <EditText 
+  		 android:layout_height="38dp" 
+   	     android:layout_width="200dp" 
+  		 android:id="@+id/s1" />
+        
+  
+    
+</TableRow>
+    
+   
+<TableRow
+        android:layout_width="wrap_content"   
+  		android:layout_height="wrap_content"  
+        android:layout_marginLeft="10dp" 
+  		android:layout_marginTop="10dp">
+  
+    <TextView 
+        android:layout_width="wrap_content"   
+  		android:layout_height="wrap_content" 
+ 		android:textColor="#000" 
+  		android:text="MID1_MS"  />
+ 
+  
+     <EditText 
+  		 android:layout_height="38dp" 
+   	     android:layout_width="200dp" 
+  		 android:id="@+id/s2" />
+        
+   
+</TableRow>
+       
+<TableRow
+        android:layout_width="wrap_content"   
+  		android:layout_height="wrap_content"  
+        android:layout_marginLeft="10dp" 
+  		android:layout_marginTop="10dp">
+  
+    <TextView 
+        android:layout_width="wrap_content"   
+  		android:layout_height="wrap_content" 
+ 		android:textColor="#000" 
+  		android:text="MID1_DP"  />
+ 
+  
+   <EditText 
+  		 android:layout_height="38dp" 
+   	     android:layout_width="200dp" 
+  		 android:id="@+id/s3" />
+        
+   
+    
+</TableRow>
+       
+<TableRow
+        android:layout_width="wrap_content"   
+  		android:layout_height="wrap_content"  
+        android:layout_marginLeft="10dp" 
+  		android:layout_marginTop="10dp">
+  
+    <TextView 
+        android:layout_width="wrap_content"   
+  		android:layout_height="wrap_content" 
+ 		android:textColor="#000" 
+  		android:text="MID2_NMS"  />
+ 
+  
+    <EditText 
+  		 android:layout_height="38dp" 
+    	 android:layout_width="200dp" 
+  		 android:id="@+id/s4" />
+        
+   
+    
+</TableRow>
+       
+ <TableRow
+        android:layout_width="wrap_content"   
+  		android:layout_height="wrap_content"  
+        android:layout_marginLeft="10dp" 
+  		android:layout_marginTop="10dp">
+  
+    <TextView 
+        android:layout_width="wrap_content"   
+  		android:layout_height="wrap_content" 
+ 		android:textColor="#000" 
+  		android:text="MID2_MS"  />
+ 
+  
+    <EditText 
+  		 android:layout_height="38dp" 
+   	     android:layout_width="200dp" 
+  		 android:id="@+id/s5" />
+        
+   
+    
+</TableRow>
+       
+<TableRow
+        android:layout_width="wrap_content"   
+  		android:layout_height="wrap_content"  
+        android:layout_marginLeft="10dp" 
+  		android:layout_marginTop="10dp">
+  
+    <TextView 
+        android:layout_width="wrap_content"   
+  		android:layout_height="wrap_content" 
+ 		android:textColor="#000" 
+  		android:text="MID2_DP"  />
+ 
+  
+     <EditText 
+  		 android:layout_height="38dp" 
+   	     android:layout_width="200dp" 
+  		 android:id="@+id/s6" />
+        
+   
+    
+ </TableRow>
+       
+          
+    
+   
+       
+ <LinearLayout
+        android:layout_width="wrap_content"   
+  		android:layout_height="wrap_content" 
+  		android:orientation="horizontal"
+  		android:gravity="center"
+  		android:layout_marginTop="25dp" >
+   
+     <Button
+        android:layout_width="100dp"   
+  		android:layout_height="wrap_content" 
+  		android:text="INSERT" 
+  		android:layout_marginLeft="20dp"
+  		android:textColor="#000"
+  		android:id="@+id/m_insert" />
+                 
+                
+                 
+</LinearLayout>
+   
+</TableLayout>
+     
+</ScrollView>

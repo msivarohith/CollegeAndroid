@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent" 
+  android:background="#fff">
+  
+    <TableRow
+        android:layout_height="wrap_content" 
+  		android:layout_width="wrap_content"
+  		android:layout_marginTop="25dp" >
+   
+   <TextView 
+        android:typeface="serif" 
+  		android:layout_height="wrap_content" 
+  		android:layout_width="wrap_content"
+  		android:textColor="#000" 
+  		android:text="ID"
+  		android:layout_marginLeft="10dp" />
+  		
+  		   
+  		
+ 
+   <Spinner 
+        android:layout_height="38dp" 
+   		android:id="@+id/delete_attendance_spinner" 
+   		android:layout_width="200dp" 
+   		android:layout_marginLeft="50dp" />
+   		
+   </TableRow>
+     
+     
+    <LinearLayout 
+         android:layout_height="wrap_content" 
+  		android:layout_width="wrap_content"
+  		android:orientation="vertical"
+  		android:layout_marginTop="45dp"
+  		android:gravity="center">
+        
+        <Button
+              android:layout_height="wrap_content" 
+  		android:layout_width="100dp" 
+  		android:text="DELETE"
+  		android:textColor="#000"
+  		android:id="@+id/attendance_delete"/>
+    </LinearLayout>
+  
+    
+</TableLayout>

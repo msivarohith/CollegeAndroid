@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#fff"
+    android:orientation="vertical" >
+    
+    <TableRow
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp">
+    
+    <TextView 
+        	android:layout_width="100dp"
+    		android:layout_height="wrap_content"
+    		android:text="SUBJECT"
+    		android:layout_marginLeft="15dp"
+    		android:textColor="#000" />
+    
+     <TextView 
+        	android:layout_width="100dp"
+    		android:layout_height="wrap_content"
+    		android:text="MID-I"
+    		android:textColor="#000" />
+     
+      <TextView 
+        	android:layout_width="100dp"
+    		android:layout_height="wrap_content"
+    		android:text="MID-II"
+    		android:textColor="#000" />
+      
+      </TableRow>
+      
+         <TableRow
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp">
+      
+             <TextView 
+        	android:layout_width="100dp"
+    		android:layout_height="wrap_content"
+    		android:text="NMS"
+    		android:layout_marginLeft="15dp"
+    		android:textColor="#000" />
+        
+         <TextView 
+         	android:layout_width="100dp"
+    		android:layout_height="wrap_content"
+    		android:textColor="#00f"
+    		android:id="@+id/gets1" />
+        
+        
+        <TextView 
+         	android:layout_width="100dp"
+    		android:layout_height="wrap_content"
+    		android:textColor="#00f"
+    		android:id="@+id/gets4" />
+     
+     </TableRow>
+    
+    <TableRow
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp">
+      
+             <TextView 
+        	android:layout_width="100dp"
+    		android:layout_height="wrap_content"
+    		android:text="MS"
+    		android:layout_marginLeft="15dp"
+    		android:textColor="#000" />
+        
+         <TextView 
+         	android:layout_width="100dp"
+    		android:layout_height="wrap_content"
+    		android:textColor="#00f"
+    		android:id="@+id/gets2" />
+        
+        
+        <TextView 
+         	android:layout_width="100dp"
+    		android:layout_height="wrap_content"
+    		android:textColor="#00f"
+    		android:id="@+id/gets5" />
+     
+     </TableRow>
+     
+        <TableRow
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp">
+      
+             <TextView 
+        	android:layout_width="100dp"
+    		android:layout_height="wrap_content"
+    		android:text="DP"
+    		android:layout_marginLeft="15dp"
+    		android:textColor="#000" />
+        
+         <TextView 
+         	android:layout_width="100dp"
+    		android:layout_height="wrap_content"
+    		android:textColor="#00f"
+    		android:id="@+id/gets3" />
+        
+        
+        <TextView 
+         	android:layout_width="100dp"
+    		android:layout_height="wrap_content"
+    		android:textColor="#00f"
+    		android:id="@+id/gets6" />
+     
+     </TableRow>
+     
+            </TableLayout>

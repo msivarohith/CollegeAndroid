@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent" 
+  android:background="#fff">
+  
+    <TableRow 
+        android:layout_marginLeft="10dp" 
+  		android:layout_marginTop="10dp">
+  
+    <TextView 
+  		android:layout_height="wrap_content" 
+  		android:layout_width="100dp"
+  		android:textColor="#000" 
+  		android:text="ID" 
+  		android:typeface="serif"  />
+
+  
+  <TextView 
+      android:layout_height="wrap_content" 
+   	  android:layout_width="wrap_content" 
+   	  android:layout_marginLeft="25dp"
+   	
+   	  android:id="@+id/cmp_spinner" />    
+  
+   
+      </TableRow>
+  
+         <TableRow
+        android:layout_width="wrap_content"   
+  		android:layout_height="wrap_content"  
+        android:layout_marginLeft="10dp" 
+  		android:layout_marginTop="10dp">
+  
+    <TextView 
+        android:layout_width="100dp"   
+  		android:layout_height="wrap_content" 
+  		android:textColor="#000"
+  		android:text="COMPLAINT_DT"  />
+ 
+  
+   <TextView 
+  		 android:layout_height="wrap_content" 
+   	  	android:layout_width="wrap_content"
+
+   	  	android:layout_marginLeft="25dp"
+  		android:id="@+id/cmp_dt" />
+        
+  
+    
+       </TableRow>
+    
+   
+         <TableRow
+        android:layout_width="wrap_content"   
+  		android:layout_height="wrap_content"  
+        android:layout_marginLeft="10dp" 
+  		android:layout_marginTop="10dp">
+  
+    <TextView 
+        android:layout_width="100dp"   
+  		android:layout_height="wrap_content" 
+ 		android:textColor="#000" 
+  		android:text="REASON"  />
+ 
+  
+   <EditText 
+  		 android:layout_height="75dp" 
+   	  android:layout_width="175dp" 
+   	  android:layout_marginLeft="25dp"
+  		android:id="@+id/reason" />
+        
+   
+    
+       </TableRow>
+    
+
+       
+             <LinearLayout
+                  android:layout_width="wrap_content"   
+  		android:layout_height="wrap_content" 
+  		android:orientation="horizontal"
+  		android:layout_marginTop="25dp"
+  		android:gravity="center" >
+   
+                 <Button
+                     android:layout_width="100dp"   
+  		android:layout_height="wrap_content" 
+  		android:text="SEND" 
+  		android:layout_marginLeft="25dp"
+  		android:textColor="#000"
+  		android:id="@+id/send" />
+                 
+               
+                 
+             </LinearLayout>
+   
+    
+     </TableLayout>

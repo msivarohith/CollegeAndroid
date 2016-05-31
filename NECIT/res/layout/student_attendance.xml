@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#fff"
+    android:orientation="vertical" >
+    
+    <LinearLayout
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp">
+    
+    <TextView 
+        	android:layout_width="150dp"
+    		android:layout_height="wrap_content"
+    		android:text="ATTENDED"
+    		android:layout_marginLeft="15dp"
+    		android:textColor="#000" />
+     <TextView 
+         	android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:layout_marginLeft="25dp"
+    		
+    		android:textColor="#000"
+    		android:id="@+id/getatt" />
+     
+     </LinearLayout>
+     
+      <LinearLayout
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp">
+    
+    <TextView 
+        	android:layout_width="150dp"
+    		android:layout_height="wrap_content"
+    		android:text="CONDUCTED"
+    		android:layout_marginLeft="15dp"
+    		android:textColor="#000"
+    		 />
+     <TextView 
+         	android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:layout_marginLeft="25dp"
+    		android:textColor="#000"
+    		android:id="@+id/getcon" />
+     
+     </LinearLayout>
+     
+            <LinearLayout
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp">
+    
+    <TextView 
+        	android:layout_width="150dp"
+    		android:layout_height="wrap_content"
+    		android:text="PERCENTAGE"
+    		android:layout_marginLeft="15dp"
+    		android:textColor="#000"
+    		 />
+     <TextView 
+         	android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:layout_marginLeft="25dp"
+    		android:textColor="#000"
+    		android:id="@+id/getper" />
+     
+     </LinearLayout>
+     
+     <LinearLayout
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="15dp">
+     
+         
+         
+         
+         <TextView
+              android:layout_width="wrap_content" 
+        		android:layout_height="wrap_content"
+        		android:textColor="#000"
+        		android:id="@+id/req" />
+         
+         
+         
+         
+         </LinearLayout>
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+                
+
+</LinearLayout>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent" 
+  android:background="#fff">
+  
+    <TableRow 
+        android:layout_marginLeft="10dp" 
+  		android:layout_marginTop="10dp">
+  
+    <TextView 
+  		android:layout_height="wrap_content" 
+  		android:layout_width="wrap_content"
+  		android:textColor="#000" 
+  		android:text="ID" 
+  		android:typeface="serif"  />
+
+  
+  <Spinner 
+      android:layout_height="38dp" 
+   	  android:layout_width="200dp" 
+   	  android:layout_marginLeft="25dp"
+   	  android:id="@+id/attendance_edit_spinner" />    
+  
+   
+      </TableRow>
+  
+         <TableRow
+        android:layout_width="wrap_content"   
+  		android:layout_height="wrap_content"  
+        android:layout_marginLeft="10dp" 
+  		android:layout_marginTop="10dp">
+  
+    <TextView 
+        android:layout_width="wrap_content"   
+  		android:layout_height="wrap_content" 
+ 		android:textColor="#000" 
+  		android:text="ATTENDED"  />
+ 
+  
+   <EditText 
+  		 android:layout_height="38dp" 
+   	  android:layout_width="200dp" 
+   	  android:layout_marginLeft="25dp"
+  		android:id="@+id/edit_attended" />
+        
+  
+    
+       </TableRow>
+    
+   
+         <TableRow
+        android:layout_width="wrap_content"   
+  		android:layout_height="wrap_content"  
+        android:layout_marginLeft="10dp" 
+  		android:layout_marginTop="10dp">
+  
+    <TextView 
+        android:layout_width="wrap_content"   
+  		android:layout_height="wrap_content" 
+ 		android:textColor="#000" 
+  		android:text="CONDUCTED"  />
+ 
+  
+   <EditText 
+  		 android:layout_height="38dp" 
+   	  android:layout_width="200dp" 
+   	  android:layout_marginLeft="25dp"
+  		android:id="@+id/edit_conducted" />
+        
+   
+    
+       </TableRow>
+    
+   
+       <LinearLayout
+                  android:layout_width="wrap_content"   
+  		android:layout_height="wrap_content" 
+  		android:gravity="center"
+  		android:orientation="horizontal"
+  		android:layout_marginTop="25dp" >
+   
+                 <Button
+                     android:layout_width="100dp"   
+  		android:layout_height="wrap_content" 
+  		android:text="UPDATE" 
+  		
+  		android:textColor="#000"
+  		android:id="@+id/attendance_update" /> 
+                 
+                  
+                 
+             </LinearLayout>
+             
+  		
+                 
+                  
+   
+    
+     </TableLayout>

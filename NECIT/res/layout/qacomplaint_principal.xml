@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent" 
+  android:background="#fff"
+  android:orientation="vertical">
+  
+   <LinearLayout 
+       android:layout_height="wrap_content" 
+  		android:layout_width="wrap_content"
+  		android:orientation="horizontal"
+       
+       >
+  
+    <TextView 
+  		android:layout_height="wrap_content" 
+  		android:layout_width="wrap_content"
+  		android:layout_marginLeft="10dp"
+  		android:textColor="#000" 
+  		android:text="ID" 
+  		android:typeface="serif"  />
+
+  
+  <Spinner 
+      android:layout_height="38dp" 
+   	  android:layout_width="175dp" 
+   	  android:layout_marginLeft="75dp"
+   	  android:id="@+id/cid_spinner" />    
+  
+   
+   </LinearLayout>  
+   
+        <LinearLayout 
+       android:layout_height="wrap_content" 
+  		android:layout_width="wrap_content"
+  		android:orientation="horizontal"
+       android:layout_marginTop="25dp"	>
+  
+      
+  
+    <TextView 
+        android:layout_width="125dp"   
+  		android:layout_height="wrap_content" 
+ 		android:textColor="#000" 
+ 		android:layout_marginLeft="10dp"
+  		android:text="DATE"  />
+ 
+  
+   <TextView 
+  		 android:layout_height="wrap_content" 
+   	  	android:layout_width="wrap_content" 
+   	  	android:layout_marginLeft="15dp"
+   	  	android:text="COMPLAINT"
+   	  	android:textColor="#000" />
+        
+  
+    
+      </LinearLayout>
+      
+               <LinearLayout 
+       android:layout_height="wrap_content" 
+  		android:layout_width="wrap_content"
+  		android:orientation="horizontal"
+       android:layout_marginTop="25dp"	>
+  
+      
+  
+    <TextView 
+        android:layout_width="125dp"   
+  		android:layout_height="wrap_content" 
+ 		android:textColor="#000" 
+ 		android:layout_marginLeft="10dp"
+  		android:id="@+id/get_date" />"
+ 
+  
+   <TextView 
+  		 android:layout_height="wrap_content" 
+   	  	android:layout_width="wrap_content" 
+   	  	android:layout_marginLeft="15dp"
+   	  	android:id="@+id/get_cmp"
+   	  	android:textColor="#000" />
+        
+  
+    
+      </LinearLayout>
+      
+ <LinearLayout 
+       android:layout_height="wrap_content" 
+  		android:layout_width="wrap_content"
+  		android:orientation="horizontal"
+       android:layout_marginTop="25dp"	>
+   
+     <Button
+         android:layout_width="100dp"   
+  		android:layout_height="wrap_content"
+  		android:text="PROCESSED"
+  		android:layout_marginLeft="15dp"
+  		android:textColor="#000"
+  		android:id="@+id/watch_complaint" />
+  		
+  		
+  		<Button
+         android:layout_width="100dp"   
+  		android:layout_height="wrap_content"
+  		android:layout_marginLeft="75dp"
+  		android:textColor="#000"
+  		android:text="LOGOUT"
+  		android:id="@+id/prince_logout" />
+  		
+     </LinearLayout>
+  		
+      
+             </LinearLayout>
+   
+    

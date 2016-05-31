@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView 
+    
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#fff">
+
+<TableLayout
+    
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#fff" >
+
+<TableRow
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="15dp"
+    android:layout_marginLeft="20dp">
+    
+        <ImageView 
+            android:layout_width="100dp"
+        	android:layout_height="75dp"
+        	android:src="@drawable/attendance"
+        	
+        	android:id="@+id/student_attendance"
+        	
+        	android:onClick="click" />
+        
+        <ImageView 
+            android:layout_width="100dp"
+        	android:layout_height="75dp"
+        	android:src="@drawable/marks"
+        	android:layout_marginLeft="80dp"
+        	
+        	android:id="@+id/student_marks"
+        	
+        	android:onClick="click"/>
+        
+        
+  </TableRow>
+        
+<TableRow
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="25dp" 
+    android:layout_marginLeft="20dp">
+    
+        <ImageView 
+            android:layout_width="100dp"
+        	android:layout_height="75dp"
+        	android:src="@drawable/questions"
+        	
+        	android:id="@+id/questions"
+        	
+        	android:onClick="click" />"
+        	
+        <ImageView 
+            android:layout_width="100dp"
+        	android:layout_height="75dp"
+        	android:src="@drawable/notification"
+        	
+        	android:layout_marginLeft="80dp"
+        	
+        	android:id="@+id/notification"
+        	
+        	android:onClick="click"/>
+        
+        
+  </TableRow>
+<TableRow
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="25dp" 
+    android:layout_marginLeft="20dp">
+    
+        <ImageView 
+            android:layout_width="100dp"
+        	android:layout_height="75dp"
+            android:src="@drawable/complaint"
+        	
+        	android:id="@+id/complaint"
+        	
+        	android:onClick="click" />
+        <ImageView 
+            android:layout_width="100dp"
+        	android:layout_height="75dp"
+        	android:src="@drawable/mock_test"
+        	android:layout_marginLeft="80dp"
+        	
+        	android:id="@+id/mock_test"
+        	
+        	android:onClick="click"/>
+        
+        
+  </TableRow>
+    
+<TableRow
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="25dp" 
+    android:layout_marginLeft="20dp">
+    
+        <ImageView 
+            android:layout_width="100dp"
+        	android:layout_height="75dp"
+            android:src="@drawable/logout"
+            
+        	android:id="@+id/student_logout"
+        	
+        	android:onClick="click" />
+       
+        <ImageView 
+            android:layout_width="100dp"
+        	android:layout_height="75dp"
+        	android:src="@drawable/reset_password"
+        	android:layout_marginLeft="80dp"
+        	
+        	android:id="@+id/reset_pwd"
+        	
+        	android:onClick="click"/>
+        
+        
+  </TableRow>
+
+</TableLayout>
+
+</ScrollView>
